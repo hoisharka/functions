@@ -1,5 +1,5 @@
 ## react-initial-setting
-	- [react-initial-setting branch]()
+	- [react-initial-setting branch](https://github.com/hoisharka/functions/tree/react-initial-setting)
 	- create project using create-react-app.
 	- scss compile setting
 		- webpack setting
