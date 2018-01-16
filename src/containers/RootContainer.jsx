@@ -5,6 +5,7 @@ import Root from '../components/Root';
 const RootContainer = props => <Root {...props} />;
 
 const mapStateToProps = (state) => {
+  console.log(state);
   return state;
 };
 

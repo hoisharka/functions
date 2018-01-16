@@ -8,7 +8,7 @@ const pushState = (route) => {
   if (location.hash !== hash) {
     history.pushState({ route }, '', hash);
   }
-}
+};
 
 export const navigateTo = (route, shouldPushState = true) => {
   if (shouldPushState) {
@@ -19,7 +19,7 @@ export const navigateTo = (route, shouldPushState = true) => {
     type: CHANGE_ROUTE,
     route
   };
-}
+};
 
 export const navigateBack = e => (dispatch) => {
   const { state } = e;
@@ -27,7 +27,7 @@ export const navigateBack = e => (dispatch) => {
     const { route } = state;
     dispatch(navigateTo(route, false));
   }
-}
+};
 
 export const initRouter = paths => (dispatch) => {
   window.onpopstate = (e) => {
@@ -37,4 +37,4 @@ export const initRouter = paths => (dispatch) => {
   const hash = location.hash ? Location.hash.slice(2) : '';
   const route = parseRoute(hash, paths);
   return dispatch(navigateTo(route));
-}
+};

@@ -1,1 +1,2 @@
 export const CHANGE_ROUTE = 'CHANGE_ROUTE';
+export const TOGGLE_NAV_COLLAPSE = 'TOGGLE_NAV_COLLAPSE';

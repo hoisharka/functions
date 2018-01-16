@@ -2,7 +2,7 @@ import * as types from '../constants/ActionTypes';
 import { INITIAL_ROUTE } from '../constants/RouterConstants';
 
 const initialState = {
-  route: { ...INITIAL_ROUTE },
+  route: { ...INITIAL_ROUTE }
 };
 
 const router = (state = initialState, action) => {

@@ -10,3 +10,11 @@
 		- redux-thunk
 	- router with hash
 		
+## responsive-nav
+	- branch: https://github.com/hoisharka/functions/tree/responsive-nav
+	- mobile
+		- collapse desktop nav
+		- layer nav region toggle button
+	- desktop
+		- hide nav button
+		- show desktop nav
